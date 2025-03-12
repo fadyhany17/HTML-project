@@ -1,1 +1,78 @@
-# HTML-project
+<!DOCTYPE html>
+<html>
+     <head>
+        <meta charset = "UTF-8" />
+        <title>My Restaurant</title>
+        <meta name = "descrupion" content = "This is one one of the most popular restaurant in Egypt." />
+     </head>   
+     <body>
+        <h1>Welcome to My Restaurant!</h1>
+        <a href="file:///C:/Users/Tweety/Desktop/HTML/index.html?txt=ffrrf&mail=efdfd%40wssas&file=&Mnn=Meat">Home</a>
+        <a href = "https://www.myrestaurant.com" target = "_blank">Our Website</a>
+        <a href="mailto:contact@myrestaurant.com" target="_blank">Our Email</a>
+        <h2>We hope you nice time and delicious meal.</h2>
+        <h3>Our restaurant is famous across the country and is known for its high-quality food and consistent cleanliness.<br>
+            We specialize in grilled dishes and are considered one of the best restaurants in the Arab world for grilled meats.<br>
+            Our restaurant also offers ongoing discounts and special offers.<br>
+            We provide discounts of up to 20% on all meals on regular days and up to 40% during holidays and special occasions.<br>
+            These offers are available for limited periods.<br>
+            Our restaurant is well-known throughout the Arab world,<br>
+             with branches in Saudi Arabia, the United Arab Emirates, and Kuwait.<br>
+            We thank all our customers for their trust and hope you try our food if you haven’t already!</h3>
+            <br>
+        <img src ="https://img.franchising.pl/eg/807/5fb/whatsapp_image_2023-06-18_at_4.18.45_am_1_.jpeg" alt = "" width="250px">
+        <hr/> 
+        <form>
+            <div>
+            <div>
+            <label for = "txt">Username</label>
+            <input type = "text" name = "txt" id="txt" required autofocus>
+            </div>
+            <br/>
+            <div>
+                <label for ="mail">Email</label>
+                <input type ="email"
+                id="mail" 
+                name = "mail"  
+                 required>
+            </div>
+            <br/>
+            <div>
+                <label for ="file">Uplaod</label>
+                <input type = "file" 
+                id="file"
+                name = "file" >
+            </div>
+            <br/>
+                <div>
+                    <label for="mnu">Menu</label>
+                    <input list = "Mnu" 
+                    id="mnu"
+                    name = "Mnn" >
+    
+                    <datalist id="Mnu">
+                        <option value="Chicken">
+                        <option value="Meat">
+                        <option value="Kofta">
+                        <option value="Mumbar">
+                        <option value="Lamb">
+                        <option value="Pigeon"> 
+                        <option value = "Duck">              
+                    </datalist>
+                </div>
+                <br/>
+            <input type = "submit">
+        </div>
+    </form> 
+        <hr/>
+        <footer id="foot">
+            <p> My Restaurant 2025. All rights reserved.</p>
+            <p>Contact us: +123-456-7890</p>
+            <p>Follow us</p>
+            <a href="https://www.facebook.com/MyRestaurant" target="_blank"> Facebook</a>
+            <a href="https://www.twitter.com/MyRestaurant" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/MyRestaurant" target="_blank">Instagram</a>
+        </footer>
+     </body>
+
+</html>
